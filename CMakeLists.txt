@@ -20,5 +20,5 @@ set_target_properties(${target_name} PROPERTIES
 )
 
 set_target_properties(${target_name} PROPERTIES
-    IMPORTED_LOCATION "${platform_spec_path}/lib/lib${lib_name}.a"
+    IMPORTED_LOCATION "${platform_spec_path}/lib${lib_name}.a"
 )
